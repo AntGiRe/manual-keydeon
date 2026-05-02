@@ -1,0 +1,278 @@
+[
+  {
+    "id": "backstitch",
+    "name": {
+      "es": "Pespunte",
+      "en": "Backstitch"
+    },
+    "description": {
+      "es": "La puntada más básica y versátil. Se utiliza para perfilar contornos y crear líneas limpias.",
+      "en": "The most basic and versatile stitch. Used to outline contours and create clean lines."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=wkXhtkO0zK0",
+    "imageUrl": "https://assets.keydeon.com/stitches/backstitch.jpg",
+    "steps": {
+      "es": [
+        "Inserta la aguja desde atrás hacia adelante en el punto A",
+        "Insertala nuevamente hacia atrás en el punto anterior (punto B)",
+        "Saca la aguja adelante en el siguiente punto (punto C)",
+        "Repite el patrón manteniendo espacios uniformes"
+      ],
+      "en": [
+        "Insert the needle from back to front at point A",
+        "Insert it again backward at the previous point (point B)",
+        "Bring the needle forward at the next point (point C)",
+        "Repeat the pattern maintaining uniform spacing"
+      ]
+    }
+  },
+  {
+    "id": "stem-stitch",
+    "name": {
+      "es": "Punto Tallo",
+      "en": "Stem Stitch"
+    },
+    "description": {
+      "es": "Perfecta para crear tallos, líneas curvas y bordes con textura. Crea un efecto trenzado elegante.",
+      "en": "Perfect for creating stems, curved lines and textured edges. Creates an elegant braided effect."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=stemstitch",
+    "imageUrl": "https://assets.keydeon.com/stitches/stem-stitch.jpg",
+    "steps": {
+      "es": [
+        "Marca una línea guía sobre tu tela",
+        "Inserta la aguja en el punto inicial de la línea",
+        "Tira del hilo formando un ángulo de 45 grados",
+        "Inserta la aguja en el centro del segmento anterior",
+        "Mantén el hilo siempre en el mismo lado de la línea"
+      ],
+      "en": [
+        "Mark a guideline on your fabric",
+        "Insert the needle at the starting point of the line",
+        "Pull the thread at a 45-degree angle",
+        "Insert the needle in the middle of the previous segment",
+        "Keep the thread always on the same side of the line"
+      ]
+    }
+  },
+  {
+    "id": "french-knot",
+    "name": {
+      "es": "Nudo Francés",
+      "en": "French Knot"
+    },
+    "description": {
+      "es": "Crea puntos texturados y volumétricos. Ideal para flores, centros de ojos o efectos puntillistas.",
+      "en": "Creates textured and volumetric dots. Ideal for flowers, eye centers or pointillist effects."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=pjI5yo656U4",
+    "imageUrl": "https://assets.keydeon.com/stitches/french.jpg",
+    "steps": {
+      "es": [
+        "Inserta la aguja desde atrás hacia adelante en el punto deseado",
+        "Envuelve el hilo alrededor de la aguja 1-3 veces",
+        "Mantén tensión constante mientras insiertas la aguja junto al punto original",
+        "Tira suavemente del hilo desde atrás para crear el nudo"
+      ],
+      "en": [
+        "Insert the needle from back to front at the desired point",
+        "Wrap the thread around the needle 1-3 times",
+        "Maintain constant tension while inserting the needle near the original point",
+        "Gently pull the thread from the back to create the knot"
+      ]
+    }
+  },
+  {
+    "id": "lazy-daisy",
+    "name": {
+      "es": "Punto Margarita",
+      "en": "Lazy Daisy"
+    },
+    "description": {
+      "es": "Perfecta para pétalos, hojas y flores rápidas. Crea formas orgánicas con mínimo esfuerzo.",
+      "en": "Perfect for petals, leaves and quick flowers. Creates organic shapes with minimal effort."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=lazydaisy",
+    "imageUrl": "https://assets.keydeon.com/stitches/lazy-daisy.jpg",
+    "steps": {
+      "es": [
+        "Inserta la aguja desde atrás hacia adelante en el punto de inicio",
+        "Forma un bucle con el hilo",
+        "Mantén el bucle en su lugar y pasa la aguja por la tela formando un pequeño punto",
+        "Inserta la aguja en el mismo punto que salió el bucle"
+      ],
+      "en": [
+        "Insert the needle from back to front at the starting point",
+        "Form a loop with the thread",
+        "Hold the loop in place and pass the needle through the fabric forming a small point",
+        "Insert the needle at the same point where the loop came out"
+      ]
+    }
+  },
+  {
+    "id": "satin-stitch",
+    "name": {
+      "es": "Punto Relleno",
+      "en": "Satin Stitch"
+    },
+    "description": {
+      "es": "Crea áreas completamente rellenas con un acabado liso y brillante. Ideal para formas grandes.",
+      "en": "Creates completely filled areas with a smooth and shiny finish. Ideal for larger shapes."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=FzAumfcqpWE",
+    "imageUrl": "https://assets.keydeon.com/stitches/satin.jpg",
+    "steps": {
+      "es": [
+        "Dibuja o marca el área a rellenar",
+        "Inserta la aguja en un lado del contorno",
+        "Sácala al lado opuesto cubriendo todo el ancho",
+        "Vuelve a entrar justo al lado de la puntada anterior",
+        "Repite hasta llenar completamente el área"
+      ],
+      "en": [
+        "Draw or mark the area to fill",
+        "Insert the needle on one side of the outline",
+        "Bring it out on the opposite side covering the full width",
+        "Re-enter just next to the previous stitch",
+        "Repeat until the area is completely filled"
+      ]
+    }
+  },
+  {
+    "id": "fly-stitch",
+    "name": {
+      "es": "Punto de Mosca",
+      "en": "Fly Stitch"
+    },
+    "description": {
+      "es": "Forma en V que parece una pequeña rama. Excelente para hojas, ramas y decoración.",
+      "en": "V-shaped stitch that looks like a small branch. Excellent for leaves, branches and decoration."
+    },
+    "videoUrl": "https://www.youtube.com/watch?v=flystitch",
+    "imageUrl": "https://assets.keydeon.com/stitches/fly-stitch.jpg",
+    "steps": {
+      "es": [
+        "Inserta la aguja en el punto superior izquierdo",
+        "Sácala en el punto superior derecho",
+        "Tira el hilo hacia abajo formando una V",
+        "Inserta la aguja en el centro inferior de la V",
+        "Sácala en el siguiente punto para continuar"
+      ],
+      "en": [
+        "Insert the needle at the upper left point",
+        "Bring it out at the upper right point",
+        "Pull the thread downward forming a V",
+        "Insert the needle at the center bottom of the V",
+        "Bring it out at the next point to continue"
+      ]
+    }
+  }
+  ,
+  {
+    "id": "leaf-stitch",
+    "name": { "es": "Punto Hoja", "en": "Leaf Stitch" },
+    "description": { "es": "Ideal para hojas y contornos orgánicos, crea textura y sutileza.", "en": "Ideal for leaves and organic outlines, creates texture and subtlety." },
+    "videoUrl": "https://www.youtube.com/watch?v=Ya3gzzMdkB8",
+    "imageUrl": "https://assets.keydeon.com/stitches/leaf.jpg",
+    "steps": {
+      "es": [
+        "Inserta la aguja en el borde de la hoja",
+        "Sácala formando una pequeña puntada oblicua hacia afuera",
+        "Vuelve a insertar cerca del punto de salida para cerrar la puntada",
+        "Repite alternando lados para construir la forma de hoja"
+      ],
+      "en": [
+        "Insert the needle at the leaf edge",
+        "Bring it out forming a small oblique stitch outward",
+        "Reinsert near the exit point to close the stitch",
+        "Repeat alternating sides to build the leaf shape"
+      ]
+    }
+  },
+  {
+    "id": "long-and-short-stitch",
+    "name": { "es": "Punto Largo y Corto", "en": "Long and Short Stitch" },
+    "description": { "es": "Excelente para degradados y sombreado suave en rellenos.", "en": "Excellent for shading and smooth gradients in fills." },
+    "videoUrl": "https://www.youtube.com/watch?v=UPyg1j9sLHs",
+    "imageUrl": "https://assets.keydeon.com/stitches/longshort.jpg",
+    "steps": {
+      "es": [
+        "Marca la dirección del relleno",
+        "Alterna puntadas largas y cortas en filas paralelas",
+        "Sigue mezclando longitudes para suavizar la transición",
+        "Alinea la dirección de las puntadas con la forma" 
+      ],
+      "en": [
+        "Mark the direction of the fill",
+        "Alternate long and short stitches in parallel rows",
+        "Keep mixing lengths to smooth the transition",
+        "Align stitch direction with the shape"
+      ]
+    }
+  },
+  {
+    "id": "straight-stitch",
+    "name": { "es": "Punto Recto", "en": "Straight Stitch" },
+    "description": { "es": "La puntada más simple: líneas directas para detalles y texturas.", "en": "The simplest stitch: straight lines for details and textures." },
+    "videoUrl": "https://www.youtube.com/watch?v=kEz-QspHLAg",
+    "imageUrl": "https://assets.keydeon.com/stitches/straight.jpg",
+    "steps": {
+      "es": [
+        "Inserta la aguja y sáquela en un punto definido",
+        "Mide la longitud de la puntada según necesidad",
+        "Repite paralelamente para crear texturas",
+        "Combina con otras puntadas para detalles finos"
+      ],
+      "en": [
+        "Insert the needle and bring it out at a defined point",
+        "Measure stitch length as needed",
+        "Repeat in parallel to create textures",
+        "Combine with other stitches for fine details"
+      ]
+    }
+  },
+  {
+    "id": "weaving-stitch",
+    "name": { "es": "Punto Tejido", "en": "Weaving Stitch" },
+    "description": { "es": "Crea efectos entrelazados imitando tejido dentro del bordado.", "en": "Creates interlaced effects mimicking weaving inside embroidery." },
+    "videoUrl": "https://www.youtube.com/watch?v=TDXJv41fj34",
+    "imageUrl": "https://assets.keydeon.com/stitches/weaving.jpg",
+    "steps": {
+      "es": [
+        "Establece guías paralelas para el área a tejer",
+        "Pasa el hilo por encima y por debajo alternando para formar la trama",
+        "Ajusta tensión para mantener el tejido uniforme",
+        "Corta y remata cuando el área esté completa"
+      ],
+      "en": [
+        "Set parallel guides for the area to weave",
+        "Pass the thread over and under alternating to form the weave",
+        "Adjust tension to keep the weave uniform",
+        "Cut and finish when the area is complete"
+      ]
+    }
+  },
+  {
+    "id": "outline-stitch",
+    "name": { "es": "Punto de Contorno", "en": "Outline Stitch" },
+    "description": { "es": "Perfecto para perfilar contornos con líneas suaves y elegantes. Crea un efecto ligeramente biselado.", "en": "Perfect for outlining contours with smooth and elegant lines. Creates a slightly beveled effect." },
+    "videoUrl": "https://www.youtube.com/watch?v=zb5yLAWqowo",
+    "imageUrl": "https://assets.keydeon.com/stitches/Outline3.jpg",
+    "steps": {
+      "es": [
+        "Marca la línea que deseas perfilar",
+        "Inserta la aguja desde atrás hacia adelante en el punto A",
+        "Sácala a un pequeño ángulo en el punto B",
+        "Vuelve a insertar en el centro entre los puntos anteriores",
+        "Repite manteniendo un ángulo consistente para crear el efecto de contorno"
+      ],
+      "en": [
+        "Mark the line you want to outline",
+        "Insert the needle from back to front at point A",
+        "Bring it out at a small angle at point B",
+        "Reinsert in the middle between the previous points",
+        "Repeat maintaining a consistent angle to create the outline effect"
+      ]
+    }
+  }
+]

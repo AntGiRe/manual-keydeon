@@ -1,16 +1,32 @@
 import embroideryData from '../data/embroidery.json';
+import stitchesData from '../data/stitches.json';
 
 export type Language = 'es' | 'en';
+
+export type Stitch = {
+  id: string;
+  name: Record<Language, string>;
+  description: Record<Language, string>;
+  videoUrl?: string;
+  imageUrl?: string;
+  steps: Record<Language, string[]>;
+};
 
 export type ManualItem = {
   id: string;
   code: string;
   name: Record<Language, string>;
   summary: Record<Language, string>;
-  details: Record<Language, string>;
+  details?: Record<Language, string>;
   palette: string;
   image?: string;
-  stitches?: Record<Language, string[]>;
+  diagramUrl?: string;
+  threadMap?: Record<string, string>;
+  stitches?: string[];
+  threadHandling?: Record<Language, string>;
+  hoopUsage?: Record<Language, string>;
+  hoopVideoUrl?: string;
+  threadVideoUrl?: string;
 };
 
 export type ManualCategory = {
@@ -25,7 +41,21 @@ export type ManualCategory = {
 
 export const categoryOrder: ManualCategory['slug'][] = ['embroidery', 'blocks', 'painting'];
 
-export const categories: Record<ManualCategory['slug'], ManualCategory> = {
+// Make stitches data easily accessible
+export const stitches: Record<string, Stitch> = (stitchesData as Stitch[]).reduce(
+  (acc, stitch) => {
+    acc[stitch.id] = stitch;
+    return acc;
+  },
+  {} as Record<string, Stitch>
+);
+
+// Helper function to get stitch details by ID
+export function getStitch(stitchId: string): Stitch | undefined {
+  return stitches[stitchId];
+}
+
+export const categories: Record<ManualCategory['slug'], ManualCategory> = {  
   embroidery: {
     slug: 'embroidery',
     name: {
@@ -48,7 +78,7 @@ export const categories: Record<ManualCategory['slug'], ManualCategory> = {
       es: 'No encontramos un manual con esa búsqueda. Revisa el código en la caja de tu kit e intenta nuevamente.',
       en: 'We couldn\'t find a manual for that search. Check the serial code on your kit box and try again.'
     },
-    items: embroideryData as ManualItem[]
+    items: (embroideryData as ManualItem[])
   },
   blocks: {
     slug: 'blocks',

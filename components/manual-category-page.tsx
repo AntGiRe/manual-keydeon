@@ -2,11 +2,11 @@
 
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { categories, type Language, type ManualCategory } from '@/lib/manual-data';
+import { categories, stitches, type Language, type ManualItem } from '@/lib/manual-data';
 import { useLanguage } from './LanguageProvider';
 
 type Props = {
-  category: ManualCategory['slug'];
+  category: 'embroidery' | 'blocks' | 'painting';
 };
 
 export default function ManualCategoryPage({ category }: Props) {
@@ -21,15 +21,14 @@ export default function ManualCategoryPage({ category }: Props) {
       return current.items;
     }
 
-    return current.items.filter((item) => {
+    return current.items.filter((item: ManualItem) => {
       const haystack = [
         item.code,
         item.name.es,
         item.name.en,
         item.summary.es,
         item.summary.en,
-        item.details.es,
-        item.details.en
+        ...(item.details ? [item.details.es, item.details.en] : [])
       ]
         .join(' ')
         .toLowerCase();
@@ -94,8 +93,8 @@ export default function ManualCategoryPage({ category }: Props) {
 
       <section className="model-grid" aria-label={copy.models}>
         {filteredItems.length > 0 ? (
-          filteredItems.map((item) => (
-            <article key={item.id} className={`model-card model-card--${item.palette}`}>
+          filteredItems.map((item: ManualItem) => (
+            <Link key={item.id} href={`/${category}/${item.id}`} className={`model-card model-card--${item.palette}`}>
               {item.image ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img src={item.image} alt={item.name[language]} className="model-card__image" />
@@ -106,19 +105,22 @@ export default function ManualCategoryPage({ category }: Props) {
                   <h2>{item.name[language]}</h2>
                 </div>
                 <p className="model-card__summary">{item.summary[language]}</p>
-                <p className="model-card__details">{item.details[language]}</p>
+                {item.details && <p className="model-card__details">{item.details[language]}</p>}
                 {item.stitches && (
                   <div className="model-card__stitches">
                     <strong>{language === 'es' ? 'Puntadas de este kit' : 'Kit stitches'}</strong>
                     <ul>
-                      {item.stitches[language].map((stitch, idx) => (
-                        <li key={idx}>{stitch}</li>
-                      ))}
+                      {item.stitches.map((stitchId, idx) => {
+                        const stitch = stitches[stitchId];
+                        return (
+                          <li key={idx}>{stitch ? stitch.name[language] : stitchId}</li>
+                        );
+                      })}
                     </ul>
                   </div>
                 )}
               </div>
-            </article>
+            </Link>
           ))
         ) : (
           <div className="empty-state">{current.emptyState[language]}</div>

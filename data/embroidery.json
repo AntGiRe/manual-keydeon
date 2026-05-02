@@ -1,6 +1,6 @@
 [
   {
-    "id": "cx-59",
+    "id": "cx-159",
     "code": "CX-159",
     "name": {
       "es": "Gatito de Otoño",
@@ -10,37 +10,67 @@
       "es": "Un gatito negro junto a un cesto de flores, rodeado de hojas cayendo.",
       "en": "A black kitten next to a flower basket, surrounded by falling leaves."
     },
-    "details": {
-      "es": "Borda el pelaje oscuro en contraste con el entorno otoñal. Concéntrate en la textura del cesto, las hojas al caer y sus profundos ojos de color azul.",
-      "en": "Embroider the dark fur contrasting with the autumn setting. Focus on the basket's texture, the falling leaves, and its deep blue eyes."
-    },
     "palette": "terracotta",
     "image": "https://assets.keydeon.com/embroidery/cx-159/cx-159.jpg",
-    "stitches": {
-      "es": ["Punto relleno", "Pespunte", "Nudo francés", "Punto margarita"],
-      "en": ["Satin stitch", "Backstitch", "French knot", "Lazy daisy"]
+    "diagramUrl": "https://assets.keydeon.com/embroidery/cx-159/cx-159-diagram.jpg",
+    "threadMap": {
+      "01": "211",
+      "02": "310",
+      "03": "320",
+      "04": "728",
+      "05": "818",
+      "06": "828",
+      "07": "3325",
+      "08": "3326",
+      "09": "3826"
+    },
+    "stitches": ["leaf-stitch", "long-and-short-stitch", "backstitch", "straight-stitch", "weaving-stitch", "satin-stitch", "french-knot"],
+    "threadVideoUrl": "https://www.youtube.com/watch?v=nfBK5ysw39g",
+    "hoopVideoUrl": "https://www.youtube.com/watch?v=cB7RUiYQ-H8"
+    ,
+    "threadHandling": {
+      "es": "Divide el hilo en hebras de 2-3 según el grosor deseado. Para anudar: haz un nudo simple al principio y remata con un nudo doble en la parte trasera al terminar.",
+      "en": "Split the floss into 2-3 strands depending on desired thickness. To knot: tie a simple knot at the start and finish with a double knot on the back when done."
+    },
+    "hoopUsage": {
+      "es": "Coloca la tela tensa en el bastidor asegurando que no quede suelta: aprieta el tornillo y ajusta la tela hasta que haga ‘tac’ al tensar. Para tensar la parte trasera, tira del borde opuesto y vuelve a apretar el tornillo.",
+      "en": "Place the fabric tightly in the hoop ensuring no slack: tighten the screw and adjust fabric until it’s taut. To tighten the back, pull the opposite edge and re-tighten the screw."
     }
   },
   {
-    "id": "embro-02",
-    "code": "EMB-214",
+    "id": "cx-161",
+    "code": "CX-161",
     "name": {
-      "es": "Lino Natural",
-      "en": "Natural Linen"
+      "es": "Botas de lluvia florales",
+      "en": "Floral Rain Boots"
     },
     "summary": {
-      "es": "Un diseño sobrio sobre lino claro, ideal para decorar cualquier espacio.",
-      "en": "A minimalist piece on light linen, perfect for an organic room aesthetic."
-    },
-    "details": {
-      "es": "Descubre nuestros trucos para tensar la tela y darle ese acabado uniforme y simétrico a cada una de tus líneas.",
-      "en": "Learn our best tension tricks to achieve uniform, symmetrical lines across your entire hoop."
+      "es": "Encantadoras botas de agua que, en lugar de lluvia, guardan en su interior un precioso ramo de flores en plena floración.",
+      "en": "Charming rain boots that, instead of rain, hold a beautiful bouquet of blooming flowers inside."
     },
     "palette": "sand",
-    "image": "/images/embro-02.svg",
-    "stitches": {
-      "es": ["Punto atrás", "Punto llano"],
-      "en": ["Backstitch", "Satin stitch"]
+    "image": "https://assets.keydeon.com/embroidery/cx-161/cx-161.jpg",
+    "diagramUrl": "https://assets.keydeon.com/embroidery/cx-161/cx-161-diagram.jpg",
+    "threadMap": {
+      "01": "224",
+      "02": "552",
+      "03": "728",
+      "04": "948",
+      "05": "3347",
+      "06": "3689",
+      "07": "3746"
+    },
+    "stitches": ["french-knot", "satin-stitch", "outline-stitch", "straight-stitch", "long-and-short-stitch"],
+    "threadVideoUrl": "https://www.youtube.com/watch?v=nfBK5ysw39g",
+    "hoopVideoUrl": "https://www.youtube.com/watch?v=cB7RUiYQ-H8"
+    ,
+    "threadHandling": {
+      "es": "Divide el hilo en hebras de 2-3 según el grosor deseado. Para anudar: haz un nudo simple al principio y remata con un nudo doble en la parte trasera al terminar.",
+      "en": "Split the floss into 2-3 strands depending on desired thickness. To knot: tie a simple knot at the start and finish with a double knot on the back when done."
+    },
+    "hoopUsage": {
+      "es": "Coloca la tela tensa en el bastidor asegurando que no quede suelta: aprieta el tornillo y ajusta la tela hasta que haga ‘tac’ al tensar. Para tensar la parte trasera, tira del borde opuesto y vuelve a apretar el tornillo.",
+      "en": "Place the fabric tightly in the hoop ensuring no slack: tighten the screw and adjust fabric until it’s taut. To tighten the back, pull the opposite edge and re-tighten the screw."
     }
   },
   {
@@ -54,15 +84,28 @@
       "es": "Explosión de volúmenes vibrantes con puntadas elaboradas.",
       "en": "An explosion of vivid depth featuring intricate decorative stitches."
     },
-    "details": {
-      "es": "Sigue cada paso con fotos ampliadas. Aquí te mostramos cómo mezclar los hilos y aplicar puntadas francesas paso a paso.",
-      "en": "Follow along with magnified close-ups. We show you how to blend thread colors and nail the french knot step by step."
-    },
     "palette": "terracotta",
-    "image": "/images/embro-03.svg",
-    "stitches": {
-      "es": ["Nudo francés", "Punto margarita", "Punto de mosca", "Pespunte"],
-      "en": ["French knot", "Lazy daisy", "Fly stitch", "Backstitch"]
+    "image": "https://assets.keydeon.com/embro-03.jpg",
+    "diagramUrl": "https://assets.keydeon.com/embro-03-diagram.jpg",
+    "threadMap": {
+      "01": "0456",
+      "02": "0234",
+      "03": "0789",
+      "04": "0123",
+      "05": "0567",
+      "06": "0890"
+    },
+    "stitches": ["french-knot", "lazy-daisy", "fly-stitch", "backstitch"],
+    "threadVideoUrl": "https://www.youtube.com/watch?v=nfBK5ysw39g",
+    "hoopVideoUrl": "https://www.youtube.com/watch?v=cB7RUiYQ-H8"
+    ,
+    "threadHandling": {
+      "es": "Divide el hilo en hebras de 2-3 según el grosor deseado. Para anudar: haz un nudo simple al principio y remata con un nudo doble en la parte trasera al terminar.",
+      "en": "Split the floss into 2-3 strands depending on desired thickness. To knot: tie a simple knot at the start and finish with a double knot on the back when done."
+    },
+    "hoopUsage": {
+      "es": "Coloca la tela tensa en el bastidor asegurando que no quede suelta: aprieta el tornillo y ajusta la tela hasta que haga ‘tac’ al tensar. Para tensar la parte trasera, tira del borde opuesto y vuelve a apretar el tornillo.",
+      "en": "Place the fabric tightly in the hoop ensuring no slack: tighten the screw and adjust fabric until it’s taut. To tighten the back, pull the opposite edge and re-tighten the screw."
     }
   }
 ]
