@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="100%" height="100%" fill="#fff7ef"/>
+  <rect x="80" y="120" width="560" height="300" rx="24" fill="#e6b98c"/>
+  <text x="110" y="320" font-family="sans-serif" font-size="36" fill="#6e5b4b">Lino natural</text>
+</svg>

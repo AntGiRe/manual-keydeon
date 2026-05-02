@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cx-59",
+    "code": "CX-159",
+    "name": {
+      "es": "Gatito de Otoño",
+      "en": "Autumn Kitten"
+    },
+    "summary": {
+      "es": "Un gatito negro junto a un cesto de flores, rodeado de hojas cayendo.",
+      "en": "A black kitten next to a flower basket, surrounded by falling leaves."
+    },
+    "details": {
+      "es": "Borda el pelaje oscuro en contraste con el entorno otoñal. Concéntrate en la textura del cesto, las hojas al caer y sus profundos ojos de color azul.",
+      "en": "Embroider the dark fur contrasting with the autumn setting. Focus on the basket's texture, the falling leaves, and its deep blue eyes."
+    },
+    "palette": "terracotta",
+    "image": "https://assets.keydeon.com/embroidery/cx-159/cx-159.jpg",
+    "stitches": {
+      "es": ["Punto relleno", "Pespunte", "Nudo francés", "Punto margarita"],
+      "en": ["Satin stitch", "Backstitch", "French knot", "Lazy daisy"]
+    }
+  },
+  {
+    "id": "embro-02",
+    "code": "EMB-214",
+    "name": {
+      "es": "Lino Natural",
+      "en": "Natural Linen"
+    },
+    "summary": {
+      "es": "Un diseño sobrio sobre lino claro, ideal para decorar cualquier espacio.",
+      "en": "A minimalist piece on light linen, perfect for an organic room aesthetic."
+    },
+    "details": {
+      "es": "Descubre nuestros trucos para tensar la tela y darle ese acabado uniforme y simétrico a cada una de tus líneas.",
+      "en": "Learn our best tension tricks to achieve uniform, symmetrical lines across your entire hoop."
+    },
+    "palette": "sand",
+    "image": "/images/embro-02.svg",
+    "stitches": {
+      "es": ["Punto atrás", "Punto llano"],
+      "en": ["Backstitch", "Satin stitch"]
+    }
+  },
+  {
+    "id": "embro-03",
+    "code": "EMB-330",
+    "name": {
+      "es": "Jardín Silvestre",
+      "en": "Wild Garden"
+    },
+    "summary": {
+      "es": "Explosión de volúmenes vibrantes con puntadas elaboradas.",
+      "en": "An explosion of vivid depth featuring intricate decorative stitches."
+    },
+    "details": {
+      "es": "Sigue cada paso con fotos ampliadas. Aquí te mostramos cómo mezclar los hilos y aplicar puntadas francesas paso a paso.",
+      "en": "Follow along with magnified close-ups. We show you how to blend thread colors and nail the french knot step by step."
+    },
+    "palette": "terracotta",
+    "image": "/images/embro-03.svg",
+    "stitches": {
+      "es": ["Nudo francés", "Punto margarita", "Punto de mosca", "Pespunte"],
+      "en": ["French knot", "Lazy daisy", "Fly stitch", "Backstitch"]
+    }
+  }
+]
