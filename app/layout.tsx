@@ -3,7 +3,7 @@ import './globals.css';
 import Providers from '@/components/Providers';
 
 export const metadata: Metadata = {
-  title: 'Manual DIY',
+  title: 'Guías Keydeon',
   description: 'Manualidades, costura, bloques de construccion y pintar por numeros.',
   robots: {
     index: false,

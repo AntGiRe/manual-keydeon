@@ -74,28 +74,66 @@
     }
   },
   {
-    "id": "embro-03",
-    "code": "EMB-330",
+    "id": "cx-177",
+    "code": "CX-177",
     "name": {
-      "es": "Jardín Silvestre",
-      "en": "Wild Garden"
+      "es": "Ciervo del bosque",
+      "en": "Forest Deer"
     },
     "summary": {
-      "es": "Explosión de volúmenes vibrantes con puntadas elaboradas.",
-      "en": "An explosion of vivid depth featuring intricate decorative stitches."
+      "es": "Silueta serena de un ciervo rodeado de delicadas flores silvestres.",
+      "en": "A serene deer silhouette surrounded by delicate wildflowers."
     },
     "palette": "terracotta",
-    "image": "https://assets.keydeon.com/embro-03.jpg",
-    "diagramUrl": "https://assets.keydeon.com/embro-03-diagram.jpg",
-    "threadMap": {
-      "01": "0456",
-      "02": "0234",
-      "03": "0789",
-      "04": "0123",
-      "05": "0567",
-      "06": "0890"
+    "image": "https://assets.keydeon.com/embroidery/cx-177/cx-177.jpg",
+    "diagramUrl": "https://assets.keydeon.com/embroidery/cx-177/cx-177-diagram.jpg",
+    "stitches": ["straight-stitch", "long-and-short-stitch", "outline-stitch", "french-knot", "satin-stitch", "leaf-stitch"],
+    "threadVideoUrl": "https://www.youtube.com/watch?v=nfBK5ysw39g",
+    "hoopVideoUrl": "https://www.youtube.com/watch?v=cB7RUiYQ-H8"
+    ,
+    "threadHandling": {
+      "es": "Divide el hilo en hebras de 2-3 según el grosor deseado. Para anudar: haz un nudo simple al principio y remata con un nudo doble en la parte trasera al terminar.",
+      "en": "Split the floss into 2-3 strands depending on desired thickness. To knot: tie a simple knot at the start and finish with a double knot on the back when done."
     },
-    "stitches": ["french-knot", "lazy-daisy", "fly-stitch", "backstitch"],
+    "hoopUsage": {
+      "es": "Coloca la tela tensa en el bastidor asegurando que no quede suelta: aprieta el tornillo y ajusta la tela hasta que haga ‘tac’ al tensar. Para tensar la parte trasera, tira del borde opuesto y vuelve a apretar el tornillo.",
+      "en": "Place the fabric tightly in the hoop ensuring no slack: tighten the screw and adjust fabric until it’s taut. To tighten the back, pull the opposite edge and re-tighten the screw."
+    }
+  },
+  {
+    "id": "cx-168",
+    "code": "CX-168",
+    "name": {
+      "es": "Flores del desierto",
+      "en": "Desert Blooms"
+    },
+    "summary": {
+      "es": "Combina la fuerza de los cactus con la delicadeza de las flores en plena floración.",
+      "en": "Combines the strength of cacti with the delicacy of flowers in full bloom."
+    },
+    "palette": "terracotta",
+    "image": "https://assets.keydeon.com/embroidery/cx-168/cx-168.jpg",
+    "diagramUrl": "https://assets.keydeon.com/embroidery/cx-168/cx-168-diagram.jpg",
+    "threadMap": {
+      "01": "152",
+      "02": "223",
+      "03": "225",
+      "04": "433",
+      "05": "500",
+      "06": "712",
+      "07": "732",
+      "08": "832",
+      "09": "938",
+      "10": "989",
+      "11": "3022",
+      "12": "3346",
+      "13": "3820",
+      "14": "3825",
+      "15": "3826",
+      "16": "3831",
+      "17": "3852"
+    },
+    "stitches": ["straight-stitch", "long-and-short-stitch", "outline-stitch", "french-knot", "satin-stitch", "lazy-daisy"],
     "threadVideoUrl": "https://www.youtube.com/watch?v=nfBK5ysw39g",
     "hoopVideoUrl": "https://www.youtube.com/watch?v=cB7RUiYQ-H8"
     ,

@@ -89,23 +89,25 @@
       "en": "Lazy Daisy"
     },
     "description": {
-      "es": "Perfecta para pétalos, hojas y flores rápidas. Crea formas orgánicas con mínimo esfuerzo.",
-      "en": "Perfect for petals, leaves and quick flowers. Creates organic shapes with minimal effort."
+      "es": "Puntada en bucle ideal para pétalos y hojas. Permite crear flores definidas con volumen suave.",
+      "en": "A loop stitch ideal for petals and leaves. It helps create defined flowers with soft dimension."
     },
-    "videoUrl": "https://www.youtube.com/watch?v=lazydaisy",
-    "imageUrl": "https://assets.keydeon.com/stitches/lazy-daisy.jpg",
+    "videoUrl": "https://www.youtube.com/watch?v=2pYtAKpRlTM",
+    "imageUrl": "https://assets.keydeon.com/stitches/Lazy.jpg",
     "steps": {
       "es": [
-        "Inserta la aguja desde atrás hacia adelante en el punto de inicio",
-        "Forma un bucle con el hilo",
-        "Mantén el bucle en su lugar y pasa la aguja por la tela formando un pequeño punto",
-        "Inserta la aguja en el mismo punto que salió el bucle"
+        "Saca la aguja en el punto donde nace el pétalo.",
+        "Reintroduce la aguja en el mismo punto y vuelve a sacarla en la punta del pétalo sin tirar del todo.",
+        "Deja el hilo por debajo de la aguja para formar el bucle.",
+        "Tira suavemente hasta ajustar el bucle con forma de pétalo.",
+        "Fija el pétalo con una puntada corta justo por fuera de la punta."
       ],
       "en": [
-        "Insert the needle from back to front at the starting point",
-        "Form a loop with the thread",
-        "Hold the loop in place and pass the needle through the fabric forming a small point",
-        "Insert the needle at the same point where the loop came out"
+        "Bring the needle up at the point where the petal starts.",
+        "Reinsert the needle at the same point and bring it up at the petal tip without pulling all the way.",
+        "Keep the thread under the needle to form a loop.",
+        "Pull gently to shape and tighten the loop into a petal.",
+        "Anchor the petal with a tiny straight stitch just beyond the tip."
       ]
     }
   },
