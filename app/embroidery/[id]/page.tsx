@@ -47,7 +47,9 @@ export default function KitDetailPage() {
       timeEstimate: 'Tiempo estimado',
       difficulty: 'Nivel de dificultad',
       instructions: 'Instrucciones detalladas',
-      step: 'Paso'
+      step: 'Paso',
+      ctaTitle: '¿Necesitas más kits?',
+      ctaCode: 'TEJAR5'
     },
     en: {
       back: 'Back to embroidery',
@@ -56,7 +58,9 @@ export default function KitDetailPage() {
       timeEstimate: 'Estimated time',
       difficulty: 'Difficulty level',
       instructions: 'Detailed instructions',
-      step: 'Step'
+      step: 'Step',
+      ctaTitle: 'Need more kits?',
+      ctaCode: 'TEJAR5'
     }
   }[language];
 
@@ -208,6 +212,20 @@ export default function KitDetailPage() {
           )}
         </div>
       </header>
+
+      {/* Simple CTA Footer */}
+      <section className="kit-detail-cta">
+        <div className="kit-detail-cta-inner">
+          <p>{copy.ctaTitle}</p>
+          <a href="https://keydeon.com" target="_blank" rel="noopener noreferrer" className="kit-detail-cta-link">
+            {language === 'es' ? 'Visita Keydeon.com' : 'Visit Keydeon.com'} 
+            <span className="discount-voucher">
+              <span className="discount-voucher-code">{copy.ctaCode}</span>
+              <span className="discount-voucher-badge">-5%</span>
+            </span>
+          </a>
+        </div>
+      </section>
 
       <StitchModal stitch={selectedStitch} language={language} onClose={() => setSelectedStitch(null)} />
     </main>

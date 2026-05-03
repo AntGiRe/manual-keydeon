@@ -44,7 +44,9 @@ export default function ManualCategoryPage({ category }: Props) {
       search: 'Buscador de modelos',
       results: 'modelos encontrados',
       models: 'Modelos',
-      updated: 'Estás a un paso de ponerte manos a la obra con este modelo.'
+      updated: 'Estás a un paso de ponerte manos a la obra con este modelo.',
+      ctaTitle: '¿Listo para más proyectos?',
+      ctaCode: 'TEJAR5'
     },
     en: {
       back: 'Back to collections',
@@ -52,7 +54,9 @@ export default function ManualCategoryPage({ category }: Props) {
       search: 'Model search',
       results: 'models found',
       models: 'Models',
-      updated: "You're one step away from getting hands-on with this model."
+      updated: "You're one step away from getting hands-on with this model.",
+      ctaTitle: 'Ready for more projects?',
+      ctaCode: 'TEJAR5'
     }
   }[language];
 
@@ -125,6 +129,20 @@ export default function ManualCategoryPage({ category }: Props) {
         ) : (
           <div className="empty-state">{current.emptyState[language]}</div>
         )}
+      </section>
+
+      {/* Simple CTA Footer */}
+      <section className="category-page-cta">
+        <div className="category-page-cta-inner">
+          <p>{copy.ctaTitle}</p>
+          <a href="https://keydeon.com" target="_blank" rel="noopener noreferrer" className="category-page-cta-link">
+            {language === 'es' ? 'Explorar en Keydeon.com' : 'Explore at Keydeon.com'} 
+            <span className="discount-voucher">
+              <span className="discount-voucher-code">{copy.ctaCode}</span>
+              <span className="discount-voucher-badge">-5%</span>
+            </span>
+          </a>
+        </div>
       </section>
     </main>
   );

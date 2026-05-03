@@ -13,6 +13,11 @@ type Copy = {
   languageLabel: string;
   categoriesTitle: string;
   footer: string;
+  ctaTitle: string;
+  ctaDescription: string;
+  ctaButtonText: string;
+  ctaDiscount: string;
+  ctaCode: string;
   categories: Array<{
     id: string;
     title: string;
@@ -32,6 +37,11 @@ const copy: Record<Language, Copy> = {
     languageLabel: 'Idioma',
     categoriesTitle: 'Explora nuestras colecciones',
     footer: 'Selecciona la línea de producto de tu kit para encontrar las instrucciones exactas.',
+    ctaTitle: '¿Necesitas tu próximo kit?',
+    ctaDescription: 'Descubre más proyectos y colecciones exclusivas en Keydeon.com',
+    ctaButtonText: 'Explorar colección',
+    ctaDiscount: '5% de descuento en tu próximo pedido',
+    ctaCode: 'TEJAR5',
     categories: [
       {
         id: 'embroidery',
@@ -65,6 +75,11 @@ const copy: Record<Language, Copy> = {
     languageLabel: 'Language',
     categoriesTitle: 'Explore our collections',
     footer: 'Select your kit\'s product line to find the exact, easy-to-follow instructions.',
+    ctaTitle: 'Ready for your next masterpiece?',
+    ctaDescription: 'Discover more exclusive projects and kits at Keydeon.com',
+    ctaButtonText: 'Explore collection',
+    ctaDiscount: '5% off your next order',
+    ctaCode: 'TEJAR5',
     categories: [
       {
         id: 'embroidery',
@@ -105,21 +120,6 @@ export default function HomePage() {
           <p className="intro">{content.intro}</p>
 
           {/* Language selector moved to the top navbar */}
-
-          <div className="hero__highlights" aria-label={language === 'es' ? 'Aspectos destacados' : 'Highlights'}>
-            <div>
-              <strong>{language === 'es' ? '3' : '3'}</strong>
-              <span>{language === 'es' ? 'categorías' : 'categories'}</span>
-            </div>
-            <div>
-              <strong>{language === 'es' ? '100%' : '100%'}</strong>
-              <span>{language === 'es' ? 'visuales' : 'visual'}</span>
-            </div>
-            <div>
-              <strong>{language === 'es' ? '1' : '1'}</strong>
-              <span>{language === 'es' ? 'experiencia creativa' : 'creative experience'}</span>
-            </div>
-          </div>
         </div>
 
         <aside className="hero__panel" aria-hidden="true">
@@ -141,6 +141,26 @@ export default function HomePage() {
             </div>
           </div>
         </aside>
+      </section>
+
+      {/* CTA Section: Keydeon.com with discount code */}
+      <section className="homepage-cta">
+        <div className="homepage-cta-inner">
+          <div className="homepage-cta-content">
+            <h2>{content.ctaTitle}</h2>
+            <p className="homepage-cta-description">{content.ctaDescription}</p>
+            <div className="homepage-cta-promo">
+              <span className="homepage-cta-discount">{content.ctaDiscount}</span>
+              <a href="https://keydeon.com" target="_blank" rel="noopener noreferrer" className="homepage-cta-button">
+                {content.ctaButtonText}
+                <span className="discount-voucher" style={{ marginLeft: '8px' }}>
+                  <span className="discount-voucher-code">{content.ctaCode}</span>
+                  <span className="discount-voucher-badge">-5%</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section className="catalogue" aria-labelledby="categories-title">
