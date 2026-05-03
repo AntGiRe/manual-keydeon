@@ -150,14 +150,13 @@ export default function HomePage() {
             <h2>{content.ctaTitle}</h2>
             <p className="homepage-cta-description">{content.ctaDescription}</p>
             <div className="homepage-cta-promo">
-              <span className="homepage-cta-discount">{content.ctaDiscount}</span>
               <a href="https://keydeon.com" target="_blank" rel="noopener noreferrer" className="homepage-cta-button">
-                {content.ctaButtonText}
-                <span className="discount-voucher" style={{ marginLeft: '8px' }}>
-                  <span className="discount-voucher-code">{content.ctaCode}</span>
-                  <span className="discount-voucher-badge">-5%</span>
-                </span>
+                {content.ctaButtonText} <span>→</span>
               </a>
+              <span className="discount-voucher">
+                <span className="discount-voucher-code">{content.ctaCode}</span>
+                <span className="discount-voucher-badge">-5%</span>
+              </span>
             </div>
           </div>
         </div>

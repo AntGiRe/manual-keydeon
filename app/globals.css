@@ -1546,55 +1546,6 @@ button {
   margin-bottom: 0;
 }
 
-.homepage-cta-discount {
-  display: inline-block;
-  padding: 8px 16px;
-  border-radius: 999px;
-  background: rgba(158, 99, 56, 0.12);
-  color: var(--accent-strong);
-  font-weight: 600;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.homepage-cta-badge {
-  display: inline-block;
-  padding: 8px 16px;
-  border-radius: 999px;
-  background: rgba(158, 99, 56, 0.12);
-  color: var(--accent-strong);
-  font-weight: 600;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.homepage-cta-code-box {
-  display: inline-flex;
-  gap: 8px;
-  align-items: center;
-  padding: 8px 16px;
-  border-radius: 12px;
-  background: #ffffff;
-  border: 2px solid var(--accent);
-  box-shadow: 0 4px 12px rgba(94, 107, 82, 0.1);
-}
-
-.homepage-cta-code-label {
-  font-size: 0.85rem;
-  color: var(--muted);
-  font-weight: 500;
-}
-
-.homepage-cta-code {
-  font-family: 'Monaco', 'Courier New', monospace;
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--accent);
-  letter-spacing: 0.05em;
-}
-
 .homepage-cta-button {
   display: inline-flex;
   gap: 8px;
@@ -1643,7 +1594,6 @@ button {
 
   .homepage-cta-promo {
     gap: 12px;
-    margin-bottom: 24px;
   }
 }
 
@@ -1670,13 +1620,7 @@ button {
 
   .homepage-cta-promo {
     flex-direction: column;
-    margin-bottom: 20px;
-  }
-
-  .homepage-cta-badge,
-  .homepage-cta-code-box {
-    width: 100%;
-    justify-content: center;
+    gap: 12px;
   }
 
   .homepage-cta-button {
@@ -1684,6 +1628,11 @@ button {
     justify-content: center;
     padding: 14px 20px;
     font-size: 0.9rem;
+  }
+
+  .discount-voucher {
+    width: 100%;
+    justify-content: center;
   }
 }
 
