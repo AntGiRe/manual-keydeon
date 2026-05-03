@@ -1215,6 +1215,118 @@ button {
   background: #8b5a2b;
 }
 
+/* Kit Detail Navigation Menu */
+.kit-detail-nav {
+  position: sticky;
+  top: 70px;
+  z-index: 50;
+  padding: 8px 0;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.kit-detail-nav-inner {
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: rgba(255, 255, 255, 0.72);
+  padding: 8px 12px;
+  border-radius: 999px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+  backdrop-filter: blur(6px) saturate(120%);
+  border: 1px solid rgba(0,0,0,0.04);
+  max-width: 920px;
+  width: min(100%, 96%);
+}
+
+.kit-detail-nav-btn {
+  padding: 10px 20px;
+  border: 1px solid var(--panel-border);
+  border-radius: 20px;
+  background: #ffffff;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 200ms ease;
+  box-shadow: var(--shadow);
+  white-space: nowrap;
+}
+
+.kit-detail-nav-btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.kit-detail-section {
+  padding: 40px 0;
+}
+
+.kit-detail-section:nth-child(odd) {
+  background: rgba(94, 107, 82, 0.02);
+}
+
+/* Prevent sections from being hidden under sticky topbar when scrolled into view */
+.kit-detail-section {
+  scroll-margin-top: 96px;
+}
+
+@media (max-width: 768px) {
+  .kit-detail-nav {
+    top: 72px;
+    padding: 12px 0;
+    margin-bottom: 24px;
+  }
+
+  .kit-detail-nav-inner {
+    gap: 8px;
+    padding: 0 16px;
+  }
+
+  .kit-detail-nav-btn {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  .kit-detail-hero-inner {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .kit-detail-nav {
+    top: 80px;
+  }
+
+  .kit-detail-nav-inner {
+    gap: 6px;
+  }
+
+  .kit-detail-nav-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    border-radius: 16px;
+  }
+
+  .kit-detail-section {
+    padding: 24px 0;
+    scroll-margin-top: 76px;
+  }
+}
+
+@media (max-width: 768px) {
+  .kit-detail-section {
+    scroll-margin-top: 88px;
+  }
+}
+
 .stitch-modal-close-btn {
   flex: 1;
   min-width: 120px;

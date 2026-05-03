@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { categories, stitches, Stitch, ManualItem } from '@/lib/manual-data';
@@ -12,6 +12,16 @@ export default function KitDetailPage() {
   const id = params.id as string;
   const { language } = useLanguage();
   const [selectedStitch, setSelectedStitch] = useState<Stitch | null>(null);
+
+  const diagramRef = useRef<HTMLDivElement | null>(null);
+  const mapRef = useRef<HTMLDivElement | null>(null);
+  const stitchesRef = useRef<HTMLDivElement | null>(null);
+
+  const scrollToSection = (ref: React.RefObject<HTMLDivElement | null>) => {
+    if (ref && ref.current) {
+      ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  };
 
   const current = categories.embroidery;
   const item = current.items.find((i: ManualItem) => i.id === id);
@@ -113,8 +123,54 @@ export default function KitDetailPage() {
             </section>
           )}
 
+          {/* Internal navigation: Diagram -> Map -> Techniques */}
+          {(item.diagramUrl || item.threadMap || item.stitches) && (
+            <nav className="kit-detail-nav">
+              <div className="kit-detail-nav-inner">
+                {item.diagramUrl && (
+                  <button type="button" onClick={() => scrollToSection(diagramRef)} className="kit-detail-nav-btn">
+                    📐 {language === 'es' ? 'Diagrama' : 'Diagram'}
+                  </button>
+                )}
+                {item.threadMap && (
+                  <button type="button" onClick={() => scrollToSection(mapRef)} className="kit-detail-nav-btn">
+                    🧵 {language === 'es' ? 'Mapa' : 'Map'}
+                  </button>
+                )}
+                {item.stitches && (
+                  <button type="button" onClick={() => scrollToSection(stitchesRef)} className="kit-detail-nav-btn">
+                    ✨ {language === 'es' ? 'Técnicas' : 'Techniques'}
+                  </button>
+                )}
+              </div>
+            </nav>
+          )}
+
+          {item.diagramUrl && (
+            <section ref={diagramRef} className="kit-detail-diagram kit-detail-section">
+              <h3>{language === 'es' ? 'Diagrama del diseño' : 'Design diagram'}</h3>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={item.diagramUrl} alt={`${item.name[language]} diagram`} className="kit-detail-diagram-image" />
+            </section>
+          )}
+
+          {item.threadMap && (
+            <section ref={mapRef} className="kit-detail-threads kit-detail-section">
+              <h3>{language === 'es' ? 'Mapa de hilos' : 'Thread mapping'}</h3>
+              <div className="thread-map">
+                {Object.entries(item.threadMap as Record<string, string>).map(([designNum, threadNum]) => (
+                  <div key={designNum} className="thread-map-item">
+                    <span className="thread-map-design">{designNum}</span>
+                    <span className="thread-map-arrow">→</span>
+                    <span className="thread-map-thread">{threadNum}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
+
           {item.stitches && (
-            <section className="kit-detail-stitches">
+            <section ref={stitchesRef} className="kit-detail-stitches kit-detail-section">
               <h3>{copy.techniques}</h3>
               <div className="kit-detail-stitches-grid">
                 {item.stitches.map((stitchId: string) => {
@@ -148,29 +204,6 @@ export default function KitDetailPage() {
                   );
                 })}
               </div>
-            </section>
-          )}
-
-          {item.threadMap && (
-            <section className="kit-detail-threads">
-              <h3>{language === 'es' ? 'Mapa de hilos' : 'Thread mapping'}</h3>
-              <div className="thread-map">
-                {Object.entries(item.threadMap as Record<string, string>).map(([designNum, threadNum]) => (
-                  <div key={designNum} className="thread-map-item">
-                    <span className="thread-map-design">{designNum}</span>
-                    <span className="thread-map-arrow">→</span>
-                    <span className="thread-map-thread">{threadNum}</span>
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
-
-          {item.diagramUrl && (
-            <section className="kit-detail-diagram">
-              <h3>{language === 'es' ? 'Diagrama del diseño' : 'Design diagram'}</h3>
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={item.diagramUrl} alt={`${item.name[language]} diagram`} className="kit-detail-diagram-image" />
             </section>
           )}
         </div>

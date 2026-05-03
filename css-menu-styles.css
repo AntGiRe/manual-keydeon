@@ -1,0 +1,93 @@
+
+/* Kit Detail Navigation Menu */
+.kit-detail-nav {
+  position: sticky;
+  top: 70px;
+  z-index: 50;
+  background: linear-gradient(180deg, rgba(252, 250, 238, 0.95) 0%, rgba(252, 250, 238, 0.85) 100%);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--panel-border);
+  padding: 16px 0;
+  margin-bottom: 32px;
+}
+
+.kit-detail-nav-inner {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.kit-detail-nav-btn {
+  padding: 10px 20px;
+  border: 1px solid var(--panel-border);
+  border-radius: 20px;
+  background: #ffffff;
+  color: var(--text);
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 200ms ease;
+  box-shadow: var(--shadow);
+  white-space: nowrap;
+}
+
+.kit-detail-nav-btn:hover {
+  background: var(--accent);
+  color: #ffffff;
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.kit-detail-section {
+  padding: 40px 0;
+}
+
+.kit-detail-section:nth-child(odd) {
+  background: rgba(94, 107, 82, 0.02);
+}
+
+@media (max-width: 768px) {
+  .kit-detail-nav {
+    top: 60px;
+    padding: 12px 0;
+    margin-bottom: 24px;
+  }
+
+  .kit-detail-nav-inner {
+    gap: 8px;
+    padding: 0 16px;
+  }
+
+  .kit-detail-nav-btn {
+    padding: 8px 14px;
+    font-size: 0.85rem;
+  }
+
+  .kit-detail-hero-inner {
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 600px) {
+  .kit-detail-nav {
+    top: 56px;
+  }
+
+  .kit-detail-nav-inner {
+    gap: 6px;
+  }
+
+  .kit-detail-nav-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+    border-radius: 16px;
+  }
+
+  .kit-detail-section {
+    padding: 24px 0;
+  }
+}

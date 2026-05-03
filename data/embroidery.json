@@ -145,5 +145,51 @@
       "es": "Coloca la tela tensa en el bastidor asegurando que no quede suelta: aprieta el tornillo y ajusta la tela hasta que haga ‘tac’ al tensar. Para tensar la parte trasera, tira del borde opuesto y vuelve a apretar el tornillo.",
       "en": "Place the fabric tightly in the hoop ensuring no slack: tighten the screw and adjust fabric until it’s taut. To tighten the back, pull the opposite edge and re-tighten the screw."
     }
+  },
+  {
+    "id": "cx-150",
+    "code": "CX-150",
+    "name": {
+      "es": "Gramola Floral",
+      "en": "Floral Phonograph"
+    },
+    "summary": {
+      "es": "Combina la elegancia de una gramola vintage con la delicadeza de flores que la rodean.",
+      "en": "Combines the elegance of a vintage phonograph with the delicacy of flowers surrounding it."
+    },
+    "palette": "terracotta",
+    "image": "https://assets.keydeon.com/embroidery/cx-150/cx-150.jpg",
+    "diagramUrl": "https://assets.keydeon.com/embroidery/cx-150/cx-150-diagram.jpg",
+    "threadMap": {
+      "01": "164",
+      "02": "300",
+      "03": "301",
+      "04": "310",
+      "05": "500",
+      "06": "501",
+      "07": "727",
+      "08": "729",
+      "09": "740",
+      "10": "761",
+      "11": "893",
+      "12": "918",
+      "13": "938",
+      "14": "951",
+      "15": "972",
+      "16": "989",
+      "17": "3053"
+    },
+    "stitches": ["straight-stitch", "long-and-short-stitch", "outline-stitch", "french-knot", "satin-stitch", "leaf-stitch"],
+    "threadVideoUrl": "https://www.youtube.com/watch?v=nfBK5ysw39g",
+    "hoopVideoUrl": "https://www.youtube.com/watch?v=cB7RUiYQ-H8"
+    ,
+    "threadHandling": {
+      "es": "Divide el hilo en hebras de 2-3 según el grosor deseado. Para anudar: haz un nudo simple al principio y remata con un nudo doble en la parte trasera al terminar.",
+      "en": "Split the floss into 2-3 strands depending on desired thickness. To knot: tie a simple knot at the start and finish with a double knot on the back when done."
+    },
+    "hoopUsage": {
+      "es": "Coloca la tela tensa en el bastidor asegurando que no quede suelta: aprieta el tornillo y ajusta la tela hasta que haga ‘tac’ al tensar. Para tensar la parte trasera, tira del borde opuesto y vuelve a apretar el tornillo.",
+      "en": "Place the fabric tightly in the hoop ensuring no slack: tighten the screw and adjust fabric until it’s taut. To tighten the back, pull the opposite edge and re-tighten the screw."
+    }
   }
 ]
